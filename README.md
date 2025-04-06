@@ -1,44 +1,42 @@
 # 🏥 Hospital Management System
 
-A full-stack Hospital Management System that allows patients to book appointments and contact the hospital, while admins manage appointments, doctors, messages, and other admins. Built with **MongoDB**, **Express.js**, **React**, and **Node.js** (MERN Stack).
+A **full-stack Hospital Management System** built with the **MERN Stack (MongoDB, Express.js, React, Node.js)**.  
+This system allows **patients** to book appointments and send messages, while **admins** can manage doctors, appointments, messages, and other admins from a secure dashboard.
 
 ---
 
 ## 🚀 Features
 
-### 👤 Patient Side
-- Patient Login with authentication (JWT + Cookies)
-- Book Appointments
-- Send Messages to Hospital
-- Add New Patients
-- Persistent login using tokens stored in cookies
+### 👨‍⚕️ Patient Panel
+- ✅ Login & Register (JWT + Cookies)
+- 📅 Book Appointments
+- 💬 Send Messages to Hospital
+- ➕ Add New Patients
+- 🔁 Auto-login with stored tokens
 
-### 🛠 Admin Dashboard
-- Admin Login with authentication
-- Add/Manage Doctors
-- Add new Admins
-- View and manage all Appointments
-- Check and manage Messages
-- Authentication via JWT & Cookies
+### 🛡️ Admin Dashboard
+- 🔐 Admin Login (JWT + Cookies)
+- 👨‍⚕️ Add / Manage Doctors
+- 👥 Add New Admins
+- 📅 View / Manage All Appointments
+- 💬 Manage Messages
 
 ---
 
 ## 🧑‍💻 Tech Stack
 
-| Frontend | Backend | Database |
-|---------|----------|----------|
-| React | Node.js, Express.js | MongoDB (Mongoose) |
+| Frontend | Backend           | Database       | Tools          |
+|----------|-------------------|----------------|----------------|
+| React.js | Node.js, Express  | MongoDB + Mongoose | Postman, JWT, Cookies |
 
 ---
 
+## 🔐 Authentication & Authorization
 
-## 🔐 Authentication
+- Secured with **JWT Tokens**
+- Stored in **HTTP-Only Cookies** for extra protection
+- **Protected Routes** using custom middleware for both Patients and Admins
 
-- JWT (JSON Web Tokens) used for both patients and admins.
-- Tokens are stored in HTTP-only cookies.
-- Protected routes using middleware.
-
----
 
 
 ## 🛠 Setup Instructions
@@ -49,7 +47,15 @@ A full-stack Hospital Management System that allows patients to book appointment
 - Postman (for API testing)
 
 
+💡 Future Enhancements-
 
+📧 Email Notifications for Appointments
+
+🗓️ Doctor Availability Calendar
+
+🧑‍🔬 Role-Based Access Control
+
+📊 Admin Analytics Dashboard
 
 
 How to **RUN** the Code ! 
